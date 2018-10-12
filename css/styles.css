@@ -738,7 +738,7 @@ a, button {
     }
 
     .lower-bar h2:after {
-        top: 53px !important;
+        top: 30px !important;
     }
 
     .cta-section {
@@ -751,7 +751,7 @@ a, button {
     }
 
     .festivals-section-body h2:after {
-        top: 53px;
+        top: 30px;
     }
 
     /* main banners */
