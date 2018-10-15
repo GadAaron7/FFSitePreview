@@ -312,49 +312,6 @@ a, button {
     position: relative;
 }
 
-.row-1-bg {
-    background: url(../images/man-browsing-beside-a-camera.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.row-1-content {
-    max-width: 660px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    padding: 0 30px;
-}
-
-.how-it-works-container-2 h2 {
-    position: relative;
-}
-
-.how-it-works-container-2 h2:after{
-    content: '';
-    position: absolute;
-    top: 30px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 3px;
-    background: #ee7a73;
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-.how-it-works-container-2 p {
-    margin-top: 25px;
-}
-
-.how-it-works-container-2 .btn {
-    margin-top: 25px;
-}
-
 [class*="col-"], .wide-column-2 {
     float: left;
     padding: 15px;
@@ -532,6 +489,52 @@ a, button {
 }
 
 .how-it-works-content .btn {
+    margin-top: 25px;
+}
+
+
+
+
+.how-it-works-image {
+    background: url(../images/man-browsing-beside-a-camera.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.how-it-works-content {
+    max-width: 660px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 0 15px;
+}
+
+.how-it-works-container-2 h2 {
+    position: relative;
+}
+
+.how-it-works-container-2 h2:after{
+    content: '';
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3px;
+    background: #ee7a73;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.how-it-works-container-2 p {
+    margin-top: 25px;
+}
+
+.how-it-works-container-2 .btn {
     margin-top: 25px;
 }
 
@@ -786,10 +789,6 @@ a, button {
 
     .txt-placeholder::-webkit-input-placeholder{
         font-size: 12px;
-    }
-
-    .how-it-works-content {
-        padding: 50px 50px;
     }
 
     .lower-bar h2:after {
