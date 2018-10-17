@@ -751,13 +751,15 @@ a, button {
     
 }
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     [class*="col-"], .wide-column-2 {
         width: 100%;
         display: block;
-    }
+    }   
+}
 
+
+@media only screen and (max-width: 600px) {
     .mobile-image-wrapper {
         position: absolute;
         top: 0;
@@ -838,7 +840,11 @@ a, button {
 
     .cta-section-body {
         margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+
 
     .festivals-section-body h2:after {
         top: 30px;
