@@ -815,6 +815,22 @@ a, button {
         top: 30px !important;
     }
 
+    .how-it-works-content {
+        text-align: center;
+    }
+
+    .how-it-works-content h2:after {
+        margin: 0 auto;
+    }
+
+    .simple-fast-content {
+        text-align: center;
+    }
+
+    .simple-fast-content h2:after {
+        margin: 0 auto;
+    }
+
     .cta-section {
         background-position: left center;
         text-align: center;
