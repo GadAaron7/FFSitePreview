@@ -513,11 +513,28 @@ a, button {
     padding: 0 15px;
 }
 
-.how-it-works-container-2 h2 {
+
+.simple-fast-section {
+    background-color: #262c3b;
+    position:  relative;
+}
+
+.simple-fast-content {
+    max-width: 660px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 0 15px;
+}
+
+.simple-fast-content h2{
     position: relative;
 }
 
-.how-it-works-container-2 h2:after{
+.simple-fast-content h2:after{
     content: '';
     position: absolute;
     top: 30px;
@@ -530,16 +547,19 @@ a, button {
     margin-bottom: 10px;
 }
 
-.how-it-works-container-2 p {
+.simple-fast-content p {
     margin-top: 25px;
 }
 
-.how-it-works-container-2 .btn {
+.simple-fast-content .btn {
     margin-top: 25px;
 }
 
-.simple-fast-section {
-    background-color: #262c3b;
+.simple-fast-image {
+    background: url(../images/woman-browsing-on-smartphone.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .cta-section {
