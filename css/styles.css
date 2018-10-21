@@ -250,6 +250,12 @@ a, button {
     background: #ee8d88;
     text-align: center;
     line-height: 40px !important;
+    transition: background 0.7s;
+}
+
+.icon:hover,
+.icon:active {
+    background: #d97d78;
 }
 
 .radius-small {
@@ -721,8 +727,11 @@ a, button {
     /* navigation */
 
     .main-banner-content {
-        margin-left: 0px;
+        margin: 37px 0 0 0;
         padding: 0 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .main-banner-content h1 {
