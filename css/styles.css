@@ -323,6 +323,8 @@ a, button {
 }
 
 
+
+
 /*****************************grids******************************/
 
 .top-navigation {
@@ -412,13 +414,14 @@ a, button {
     padding: 80px 0;
 }
 
-.services-content-container {
-    max-width: 250px;
-    margin: 0 auto;
-}
 
 .services-section-body img {
     margin-bottom: 15px;
+}
+
+.services-section-body p {
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 .services-section-body .btn {
@@ -756,6 +759,17 @@ a, button {
         width: 100%;
         display: block;
     }   
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px){
+    .services-image-container {
+        width: 50%;
+        float: left;
+    }
+    .services-content-container {
+        width: 50%;
+        float: left;
+    }
 }
 
 
