@@ -311,6 +311,13 @@ a, button {
     width: 30%;
 }
 
+.col-img {
+    padding: 0px !important;
+    width: 50%;
+    min-height: 300px;
+    position: relative;
+}
+
 [class*="col-"], .wide-column-2 {
     float: left;
     padding: 15px;
@@ -320,6 +327,8 @@ a, button {
 .no-padding {
     padding: 0px;
 }
+
+
 
 
 /*****************************grids******************************/
@@ -411,13 +420,14 @@ a, button {
     padding: 80px 0;
 }
 
-.services-content-container {
-    max-width: 250px;
-    margin: 0 auto;
-}
 
 .services-section-body img {
     margin-bottom: 15px;
+}
+
+.services-section-body p {
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 .services-section-body .btn {
@@ -491,8 +501,74 @@ a, button {
     margin-top: 25px;
 }
 
+
+
+
+.how-it-works-image {
+    background: url(../images/man-browsing-beside-a-camera.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.how-it-works-content {
+    max-width: 660px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 0 15px;
+}
+
+
 .simple-fast-section {
     background-color: #262c3b;
+    position:  relative;
+}
+
+.simple-fast-content {
+    max-width: 660px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 0 15px;
+}
+
+.simple-fast-content h2{
+    position: relative;
+}
+
+.simple-fast-content h2:after{
+    content: '';
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3px;
+    background: #ee7a73;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.simple-fast-content p {
+    margin-top: 25px;
+}
+
+.simple-fast-content .btn {
+    margin-top: 25px;
+}
+
+.simple-fast-image {
+    background: url(../images/woman-browsing-on-smartphone.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .cta-section {
@@ -680,26 +756,52 @@ a, button {
     z-index: 999;
 }
 
+@media only screen and (max-width: 1200px) {
+    
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     [class*="col-"], .wide-column-2 {
         width: 100%;
         display: block;
     }
 
-    .btn-toggle-nav {
-        display: block;
+    .reviews-section-body p{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px){
+
+    .services-image-container {
+        width: 50%;
+        float: left;
+    }
+
+    .services-content-container {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mobile-image-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .mobile-content-wrapper {
         padding-top: 50%;
     }
 
-    .mobile-image-wrapper {
-        position: absolute;
-        top: 0;
-        left: 0;
+    .btn-toggle-nav {
+        display: block;
     }
+
     /* grids */
 
     .top-navigation {
@@ -742,12 +844,24 @@ a, button {
         font-size: 12px;
     }
 
-    .how-it-works-content {
-        padding: 50px 50px;
-    }
-
     .lower-bar h2:after {
         top: 30px !important;
+    }
+
+    .how-it-works-content {
+        text-align: center;
+    }
+
+    .how-it-works-content h2:after {
+        margin: 0 auto;
+    }
+
+    .simple-fast-content {
+        text-align: center;
+    }
+
+    .simple-fast-content h2:after {
+        margin: 0 auto;
     }
 
     .cta-section {
@@ -757,7 +871,11 @@ a, button {
 
     .cta-section-body {
         margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+
 
     .festivals-section-body h2:after {
         top: 30px;
