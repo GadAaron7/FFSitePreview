@@ -831,7 +831,7 @@ a, button {
     .main-banner-content {
         margin: 37px 0 0 0;
         padding: 0 15px;
-        top: 50%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -882,4 +882,16 @@ a, button {
     }
 
     /* main banners */
+}
+
+@media only screen and (max-width: 300px) {
+    .simple-fast-content h2:after {
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .festivals-section-body h2:after {
+        top: 50px;
+    }
 }
