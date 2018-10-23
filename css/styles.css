@@ -758,18 +758,26 @@ a, button {
     [class*="col-"], .wide-column-2 {
         width: 100%;
         display: block;
-    }   
+    }
+
+    .reviews-section-body p{
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px){
+
     .services-image-container {
         width: 50%;
         float: left;
     }
+
     .services-content-container {
         width: 50%;
         float: left;
     }
+
 }
 
 
