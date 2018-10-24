@@ -421,10 +421,6 @@ a, button {
 }
 
 
-.services-section-body img {
-    margin-bottom: 15px;
-}
-
 .services-section-body p {
     max-width: 250px;
     margin: 0 auto;
@@ -447,6 +443,16 @@ a, button {
 .search-section-body input{
     max-width: 100%;
     text-indent: 40px;
+}
+
+.services-image-container {
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.services-image-container:hover img {
+    transform: scale(2);
 }
 
 .search-section-body span {
