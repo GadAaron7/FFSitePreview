@@ -7,6 +7,7 @@ body {
 }
 
 /************Normalize************/
+
 a,
 button {
     text-decoration: none;
@@ -127,6 +128,10 @@ a, button {
 
 .btn-header:hover {
     background-color: #e86057;
+}
+
+.btn-header:after {
+    display: none;
 }
 
 .btn-pink:hover {
@@ -448,11 +453,14 @@ a, button {
 .services-image-container {
     margin-bottom: 15px;
     overflow: hidden;
-    transition: all 1s;
+}
+
+.services-image-container img {
+    transition: all 0.5s;
 }
 
 .services-image-container:hover img {
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .search-section-body span {
